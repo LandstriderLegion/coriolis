@@ -1,5 +1,3 @@
-[![Chat to us on Discord](https://img.shields.io/badge/Discord-EDCD%20%23coriolis-blue.svg?style=social)](https://discord.gg/0uwCh6R62aPRjk9w)
-
 ## About
 
 The Coriolis project was inspired by [E:D Shipyard](http://www.edshipyard.com/) and, of course, [Elite Dangerous](http://www.elitedangerous.com). The ultimate goal of Coriolis is to provide rich features to support in-game play and planning while engaging the E:D community to support its development.
@@ -8,16 +6,16 @@ Coriolis was created using assets and imagery from Elite: Dangerous, with the pe
 
 ## Contributing
 
-- [Submit issues](https://github.com/EDCD/coriolis/issues)
-- [Submit pull requests](https://github.com/EDCD/coriolis/pulls) targetting `develop` branch
-- Chat to us on [Discord](https://discord.gg/0uwCh6R62aPRjk9w)!
+- [Submit issues](https://github.com/LandstriderLegion/coriolis/issues)
+- [Submit pull requests](https://github.com/LandstriderLegion/coriolis/pulls) targetting `develop` branch
+- Chat to us on [Discord](https://landstriderlegion.space/l/discord)!
 
 ## Development
 
 This release includes the ability to run the app as a Docker container.
 ```sh
-> git clone https://github.com/EDCD/coriolis.git
-> git clone https://github.com/EDCD/coriolis-data.git
+> git clone https://github.com/LandstriderLegion/coriolis.git
+> git clone https://github.com/LandstriderLegion/coriolis-data.git
 > cd coriolis
 > docker buildx build --build-context data=../coriolis-data --tag coriolis .
 > docker run -d -p 3300:3300 coriolis
@@ -25,8 +23,8 @@ This release includes the ability to run the app as a Docker container.
 
 Or to run an instance of coriolis without Docker Desktop, perform the following steps in a shell:
 ```sh
-> git clone https://github.com/EDCD/coriolis.git
-> git clone https://github.com/EDCD/coriolis-data.git
+> git clone https://github.com/LandstriderLegion/coriolis.git
+> git clone https://github.com/LandstriderLegion/coriolis-data.git
 > cd ./coriolis-data
 > npm install
 > cd ../coriolis
@@ -38,7 +36,7 @@ You will then have a development server running on `localhost:3300`.
 
 ### Ship and Module Database
 
-See the [Data wiki](https://github.com/EDCD/coriolis-data/wiki) for details on structure, etc.
+See the [Data wiki](https://github.com/LandstriderLegion/coriolis-data/wiki) for details on structure, etc.
 
 ## Deployment
 

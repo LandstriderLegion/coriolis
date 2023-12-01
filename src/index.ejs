@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Coriolis EDCD Edition</title>
+    <title>Coriolis Landstrider Edition</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[0] %>">
     <!-- Standard headers -->
@@ -35,13 +35,6 @@
       window.BUGSNAG_VERSION = '<%- htmlWebpackPlugin.options.version + '-' + htmlWebpackPlugin.options.date.toISOString()  %>';
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55840909-18"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-55840909-18');
-    </script>
   </head>
   <body style="background-color:#000;">
     <section id="coriolis">

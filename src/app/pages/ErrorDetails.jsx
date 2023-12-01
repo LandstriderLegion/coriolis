@@ -27,7 +27,7 @@ export default class ErrorDetails extends React.Component {
     if (ed) {
       content = <div style={{ textAlign:'left', fontSize:'0.8em', width: '43em', margin: '0 auto' }}>
         <div className='cen'>
-          <a href='https://github.com/edcd/coriolis/issues' target='_blank' title='Coriolis Github Project'>Create an issue on Github</a>
+          <a href='https://github.com/LandstriderLegion/coriolis/issues' target='_blank' title='Coriolis Github Project'>Create an issue on Github</a>
           {' if this keeps happening. Add these details:'}
         </div>
         <div style={{ marginTop: '2em' }}>
@@ -48,8 +48,8 @@ export default class ErrorDetails extends React.Component {
       <br/>
         {importerror ? <div>If you are attempting to import a ship from EDDI or EDMC and are seeing a 'Z_BUF_ERROR' it means that the URL has not been provided correctly.  This is a common problem when using Microsoft Internet Explorer or Microsoft Edge, and you should use another browser instead.</div> : null }
       <br/>
-      <div>Please note that this site uses Google Analytics to track performance and usage.  If you are blocking cookies, for example using Ghostery, please disable blocking for this site and try again.</div>
-      <br/>
+      {/* <div>Please note that this site uses Google Analytics to track performance and usage.  If you are blocking cookies, for example using Ghostery, please disable blocking for this site and try again.</div> */}
+      {/* <br/> */}
       {content}
     </div>;
   }

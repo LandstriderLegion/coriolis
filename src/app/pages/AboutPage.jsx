@@ -29,22 +29,21 @@ export default class AboutPage extends Page {
       >
         <h1>
           <CoriolisLogo style={{ marginRight: '0.4em' }} className="xl" />
-          <span className="warning">Coriolis EDCD Edition</span>
+          <span className="warning">Coriolis Landstrider Edition</span>
         </h1>
 
         <p>
-          This is a clone of the Coriolis project, whose original author is
-          currently unable to maintain it. This clone is maintained by the{' '}
-          <a href="http://edcd.github.io/">EDCD community</a>.
+          This is a clone of the Coriolis project, originally managed by the <a href="http://edcd.github.io/">EDCD community</a>. This clone is maintained by the <a href="https://landstriderlegion.space">Landstrider Legion</a>.
         </p>
         <p>
-          To recover your builds, go to{' '}
+          To transfer your builds, go to{' '}
           <a href="https://coriolis.io/" target="_blank">
             https://coriolis.io/
           </a>
           , backup your builds (Settings / Backup), copy the text, return here
           and import (Settings / Import).
         </p>
+        <h1>About the Coriolis Project</h1>
         <p>
           The Coriolis project was inspired by{' '}
           <a href="http://www.edshipyard.com/" target="_blank">
@@ -70,30 +69,21 @@ export default class AboutPage extends Page {
 
         <a
           style={{ display: 'block', textDecoration: 'none' }}
-          href="https://github.com/EDCD/coriolis"
+          href="https://github.com/LandstriderLegion/coriolis"
           target="_blank"
-          title="Coriolis Github Project"
+          title="Coriolis Landstrider Edition Github Project"
         >
           <GitHub style={{ margin: '0.4em' }} className="l fg xl" />
           <h2 style={{ margin: 0, textDecoration: 'none' }}>Github</h2>
-          github.com/EDCD/coriolis
+          github.com/LandstriderLegion/coriolis
         </a>
 
-        <p>
+        {/* <p>
           Coriolis is an open source project. Checkout the list of upcoming
           features and to-do list on github. Any and all contributions and
           feedback are welcome. If you encounter any bugs please report them and
           provide as much detail as possible.
-        </p>
-
-        <h3>Chat</h3>
-        <p>
-          You can chat to us on our{' '}
-          <a href="https://discord.gg/0uwCh6R62aPRjk9w" target="_blank">
-            EDCD Discord server
-          </a>
-          .
-        </p>
+        </p> */}
       </div>
     );
   }
