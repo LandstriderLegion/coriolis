@@ -123,7 +123,7 @@ export default class ShipyardPage extends Page {
     }
 
     this.state = {
-      title: 'Coriolis Landstrider Edition - Shipyard',
+      title: 'Landstrider Shipyard',
       shipPredicate: 'name',
       shipDesc: true,
       shipSummaries: ShipyardPage.cachedShipSummaries,

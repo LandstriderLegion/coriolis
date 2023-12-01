@@ -54,14 +54,14 @@ export default class Page extends React.Component {
    * Update the window title upon mount
    */
   componentWillMount() {
-    document.title = this.state.title || 'Coriolis';
+    document.title = this.state.title || 'Landstrider Shipyard';
   }
 
   /**
    * Update the window title upon mount
    */
   componentDidMount() {
-    document.title = this.state.title || 'Coriolis';
+    document.title = this.state.title || 'Landstrider Shipyard';
     // try {
     //   (window.adsbygoogle = window.adsbygoogle || []).push({
     //     google_ad_client: "ca-pub-3709458261881414",
@@ -78,7 +78,7 @@ export default class Page extends React.Component {
    * @param  {Object} newState  Incoming state
    */
   componentWillUpdate(newProps, newState) {
-    document.title = newState.title || 'Coriolis';
+    document.title = newState.title || 'Landstrider Shipyard';
   }
 
   /**

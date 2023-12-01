@@ -13,7 +13,7 @@ export default class AboutPage extends Page {
   constructor(props) {
     super(props);
     this.state = {
-      title: 'About Coriolis'
+      title: 'About Landstrider Shipyard'
     };
   }
 
@@ -29,11 +29,11 @@ export default class AboutPage extends Page {
       >
         <h1>
           <CoriolisLogo style={{ marginRight: '0.4em' }} className="xl" />
-          <span className="warning">Coriolis Landstrider Edition</span>
+          <span className="warning">Landstrider Shipyard</span>
         </h1>
 
         <p>
-          This is a clone of the Coriolis project, originally managed by the <a href="http://edcd.github.io/">EDCD community</a>. This clone is maintained by the <a href="https://landstriderlegion.space">Landstrider Legion</a>.
+          This is a clone of the Coriolis project, originally managed by the <a href="http://edcd.github.io/">EDCD community</a>. This clone is maintained by the <a href="https://landstriderlegion.space">Landstrider Legion</a> for the purpose of providing .
         </p>
         <p>
           To transfer your builds, go to{' '}

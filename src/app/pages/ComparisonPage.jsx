@@ -146,7 +146,7 @@ export default class ComparisonPage extends Page {
     builds.sort(sortBy(predicate));
 
     return {
-      title: 'Coriolis Landstrider Edition - Compare',
+      title: 'Landstrider Shipyard - Compare',
       predicate,
       desc,
       facets,
